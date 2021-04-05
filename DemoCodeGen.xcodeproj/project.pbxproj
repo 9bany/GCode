@@ -11,9 +11,13 @@
 		A2AA44552616D4F900E449C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AA44542616D4F900E449C6 /* ContentView.swift */; };
 		A2AA44572616D4FA00E449C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AA44562616D4FA00E449C6 /* Assets.xcassets */; };
 		A2AA445A2616D4FA00E449C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AA44592616D4FA00E449C6 /* Preview Assets.xcassets */; };
+		A8534C2A3D5E677BF8F23277 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE3CC80964DC4949A7AC5F6 /* Hello.swift */; };
+		BCE96E5998EEAF0E344444A7 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940605D9DA9AA0CFDDEDF9DB /* Hello.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CE3CC80964DC4949A7AC5F6 /* Hello.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		940605D9DA9AA0CFDDEDF9DB /* Hello.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
 		A2AA444F2616D4F900E449C6 /* DemoCodeGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCodeGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AA44522616D4F900E449C6 /* DemoCodeGenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCodeGenApp.swift; sourceTree = "<group>"; };
 		A2AA44542616D4F900E449C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		494EDD77259A4BABD1449266 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A3158F9A334EEA1776E54937 /* Demo */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
 		A2AA44462616D4F900E449C6 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +69,8 @@
 				A2AA44562616D4FA00E449C6 /* Assets.xcassets */,
 				A2AA445B2616D4FA00E449C6 /* Info.plist */,
 				A2AA44582616D4FA00E449C6 /* Preview Content */,
+				940605D9DA9AA0CFDDEDF9DB /* Hello.swift */,
+				494EDD77259A4BABD1449266 /* Demo */,
 			);
 			path = DemoCodeGen;
 			sourceTree = "<group>";
@@ -67,6 +81,14 @@
 				A2AA44592616D4FA00E449C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3158F9A334EEA1776E54937 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4CE3CC80964DC4949A7AC5F6 /* Hello.swift */,
+			);
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +162,8 @@
 			files = (
 				A2AA44552616D4F900E449C6 /* ContentView.swift in Sources */,
 				A2AA44532616D4F900E449C6 /* DemoCodeGenApp.swift in Sources */,
+				BCE96E5998EEAF0E344444A7 /* Hello.swift in Sources */,
+				A8534C2A3D5E677BF8F23277 /* Hello.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
