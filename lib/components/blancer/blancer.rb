@@ -1,6 +1,7 @@
 
-require_relative './../constants/context.rb'
+require_relative './../../constants/context.rb'
 require_relative './../creators/creator.rb'
+require_relative './../../config/config.rb'
 # CreateBlancing ...
 
 class CreateBlancing

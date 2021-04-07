@@ -1,27 +1,18 @@
 
-# require 'xcodeproj'
+require 'xcodeproj'
 require 'yaml'
-require_relative 'blancer/blancer.rb'
+require_relative 'components/blancer/blancer.rb'
+require_relative 'config/config.rb'
+
 def main
     
-    # project_path = 'DemoCodeGen.xcodeproj'
-    
-    # project = Xcodeproj::Project.open(project_path)
-    
-    # group = project.main_group['DemoCodeGen']
-    # groupDemo = group.new_group('Demo2')
+    # thing = YAML.load_file('./config.yml')
+    # thing = YAML::load_file(File.join(__dir__, 'config/config.yml'))
 
-    # file = groupDemo.new_file('Hello.swift')
-    
-    # main_target = project.targets.first
-    # main_target.add_file_references([file])
-    
-    # project.save
-    thing = YAML.load_file('./config.yml')
-    puts thing
-
+    # puts thing["data"]["name_1"]
+    Configuration.instance.set_project_path("DemoCodeGen")
     blacing = CreateBlancing.new("MVVM")
-    # blacing.create()
+    blacing.create()
 end
 
 main()
